@@ -16,6 +16,7 @@ services:
       - '3000:3000'
     volumes:
       - ./client:/usr/src/app
+      - ./client/public:/usr/src/app/public
     tty: true
   backend:
     build:

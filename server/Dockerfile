@@ -4,5 +4,5 @@ WORKDIR /usr/src/app
 
 EXPOSE 5000
 
-CMD [ "node", "app.js" ]
+CMD [ "yarn", "start" ]
 

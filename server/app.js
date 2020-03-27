@@ -63,13 +63,14 @@ User.sync({ force: true })
 
 
 app.get('/', (req, res) => {
-  res.send('hello, world!')
+  res.send('hello, world!!!!!')
 })
+
+
 
 app.get('/api/users', (req, res) => {
   User
     .findAll()
-    .then(users => users.json())
     .then(data => res.send(data))
 })
 
